@@ -1,5 +1,7 @@
 # RealVNC Puppet Module for Boxen
 
+Install [RealVNC Viewer](http://www.realvnc.com/download/viewer/), remote access and control software.
+
 ## Usage
 
 ```puppet
