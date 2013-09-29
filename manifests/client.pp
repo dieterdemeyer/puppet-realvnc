@@ -4,8 +4,10 @@
 #
 #  include realvnc::client
 class realvnc::client {
-  package { 'RealVNC Viewer':
+
+  package { 'RealVNC-Viewer-5.0.5':
     provider => 'appdmg',
-    source   => 'https://yum.cegeka.be/osx_packages/RealVNC-Viewer-5.0.4.dmg',
+    source   => 'https://dl.dropboxusercontent.com/s/ti6xmcevb6yemsi/RealVNC-Viewer-5.0.5.dmg',
   }
+
 }
