@@ -3,11 +3,11 @@
 # Examples
 #
 #  include realvnc::client
-class realvnc::client {
+class realvnc::client($version='5.1.0') {
 
-  package { 'RealVNC-Viewer-5.0.5':
+  package { "RealVNC-Viewer-${version}":
     provider => 'appdmg',
-    source   => 'https://dl.dropboxusercontent.com/s/ti6xmcevb6yemsi/RealVNC-Viewer-5.0.5.dmg',
+    source   => "https://dl.dropboxusercontent.com/s/ggxr47csvs6vor9/RealVNC-Viewer-${version}.dmg",
   }
 
 }
